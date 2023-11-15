@@ -49,12 +49,14 @@ O
 ```
 Si les informations saisiez sont correctes, confirmez avec `O`, sinon répondez `N` et récommencez la procédure. 
 
+La génération randomique du paire de clés est faite
+
 ```
 Données confirmées.
 ..+.+.........+...+.....+.............+...+..+...+.+......+..+................+.........+..+.+..+...+.........+.+...+.........+..+..........+.....+......+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*.......+.....+.+..+....+...+......+.....+.+..............+.+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*......+............+........+............+...+...+..........+......+...+......+...........+....+...........+.+.....+.............+.........+...+.........+..............+............+...+.+..............+...............+......+................+........................+........+.+..+.......+...+...+.....+..........+.....+.......+...+..+...................+..................+...............+...+..+..........+..+...+....+.........+.....+....+...+...............+..+.....................+......+.+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ```
 
-La génération randomique du paire de clés est faite, et ensuite on vous demande de rentrer et confirmer un mot de passe. Ceci est le mot qui protège votre clé privée. Gardez-le soigneusement. 
+et ensuite on vous demande de rentrer et confirmer un mot de passe. Ceci est le mot qui protège votre clé privée. Gardez-le soigneusement. 
 
 ```
 Enter PEM pass phrase:
@@ -68,7 +70,6 @@ Le fichier ««moncert.csr»» est généré dans ce répertoire. Merci de le tr
 
 Finalement, dans le répertoire, vous aurez deux fichiers résultants de la demande: 
 
-- `moncert.csr` qui doit être transmis à l'AC pour faire l'émission de votre certificat; 
-- `moncert.key` qui est votre clé privée. Ce fichier est accedé avec le mot de passe que vous avez créé, et doit être protegé soigneusement - il est la garantie de l'inviolabilité de votre certificat. 
-
+- `moncert.key` qui est votre clé privée. Ce fichier est accedé avec le mot de passe que vous avez créé, et doit être protegé soigneusement - il est la garantie de l'inviolabilité de votre certificat; 
+- `moncert.csr` qui doit être transmis à l'AC pour faire l'émission de votre certificat. Merci de me le faire parvenir, dans ce premier moment, au courriel `julio.cesartorres@mcn.gouv.qc.ca`.
 

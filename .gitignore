@@ -1,0 +1,7 @@
+# Ignore les fichiers d'objets cryptographiques (générés)
+# =======================================================
+*.csr
+*.key
+*.crt
+*.p7s
+*.p12
